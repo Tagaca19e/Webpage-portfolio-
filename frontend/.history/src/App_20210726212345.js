@@ -1,5 +1,4 @@
 import { lazy, Suspense } from "react";
-import { Container } from "react-tsparticles";
 import Particle from "./components/particles";
 
 const Header = lazy(() => import("./components/Header"));
@@ -28,6 +27,7 @@ function App() {
           <Project />
           <Skill />
           <Contact />
+          <Particles />
         </main>
       </div>
     </Suspense>

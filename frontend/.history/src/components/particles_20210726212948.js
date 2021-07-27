@@ -1,10 +1,9 @@
 import React, { useContext } from "react";
 import Particles, { Container } from "react-tsparticles";
-import "./particles.css";
 
 function Particle() {
   return (
-    <container fluid className="home-section" id="home">
+    <container>
       <Particles
         params={{
           particles: {

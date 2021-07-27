@@ -1,5 +1,4 @@
 import { lazy, Suspense } from "react";
-import { Container } from "react-tsparticles";
 import Particle from "./components/particles";
 
 const Header = lazy(() => import("./components/Header"));
@@ -23,6 +22,7 @@ function App() {
     >
       <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
+        <Particles />
         <main>
           <Hero />
           <Project />
