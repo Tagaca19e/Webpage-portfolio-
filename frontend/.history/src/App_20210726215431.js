@@ -1,11 +1,13 @@
 import { lazy, Suspense } from "react";
+import { Container } from "react-tsparticles";
+import Particle from "./components/particlesbackground";
 
 const Header = lazy(() => import("./components/Header"));
 const Hero = lazy(() => import("./components/Hero"));
 const Project = lazy(() => import("./components/Project"));
 const Skill = lazy(() => import("./components/Skill"));
 const Contact = lazy(() => import("./components/Contact"));
-const Particles = lazy(() => import("./components/particlebackground"));
+const Particles = lazy(() => import("./components/particlesbackground"));
 
 function App() {
   return (
@@ -22,7 +24,6 @@ function App() {
       <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
         <main>
-          <Particles />
           <Hero />
           <Project />
           <Skill />
