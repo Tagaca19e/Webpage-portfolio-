@@ -6,7 +6,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 130,
+            value: 100,
             density: {
               enable: true,
               area: 800,
@@ -16,7 +16,7 @@ function Particle() {
             value: ["c912ed", "00bfff", "22dd22", "ffd500", "ff8000", "ff2600"],
           },
           shape: {
-            type: "circle",
+            type: "square",
             stroke: {
               width: 0,
               color: "000",

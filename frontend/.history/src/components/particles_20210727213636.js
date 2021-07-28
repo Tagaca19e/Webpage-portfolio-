@@ -6,7 +6,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 130,
+            value: 150,
             density: {
               enable: true,
               area: 800,

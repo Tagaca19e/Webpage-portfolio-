@@ -18,7 +18,7 @@ function App() {
         </div>
       }
     >
-      <body>
+      <div>
         <Header />
         <Particles />
         <div className="homePage">
@@ -27,7 +27,7 @@ function App() {
         <Project />
         <Skill />
         <Contact />
-      </body>
+      </div>
     </Suspense>
   );
 }

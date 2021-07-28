@@ -18,16 +18,16 @@ function App() {
         </div>
       }
     >
-      <body>
+      <div>
         <Header />
-        <Particles />
+        <Particles className="particles-back" />
         <div className="homePage">
           <Hero />
         </div>
         <Project />
         <Skill />
         <Contact />
-      </body>
+      </div>
     </Suspense>
   );
 }
