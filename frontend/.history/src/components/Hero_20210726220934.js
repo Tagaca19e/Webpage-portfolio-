@@ -2,7 +2,6 @@ import React, { useEffect, useRef } from "react";
 import Lottie from "lottie-web";
 import animate from "lottie-web";
 import particles from "./particles";
-
 const Hero = () => {
   const container = useRef(null);
   useEffect(() => {
@@ -16,11 +15,15 @@ const Hero = () => {
     animate.setSpeed(0.5);
   }, []);
   return (
-    <section className="my-16 px-5 md:my-32 flex flex-col flex-wrap space-y-16 md:space-y-0 patterns">
+    <section
+      className="my-16 px-5 md:my-32 flex flex-col flex-wrap space-y-16 md:space-y-0 patterns"
+      params={particles}
+    >
       <div className="ml-auto w-72 md:w-96 lg:w-2/5">
-        {/* <div className="container" ref={container}></div> */}
+        <div className="container" ref={container}></div>
       </div>
       <div className="max-w-md mb-auto space-y-5">
+        <particles />
         <h1 className="text-5xl font-bold md:text-7xl">Hello. I’m Theelipan</h1>
         <p className="tracking-wide leading-relaxed">
           I have a passion for developing user-friendly, accessible and

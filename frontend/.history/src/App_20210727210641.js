@@ -1,5 +1,4 @@
 import { lazy, Suspense } from "react";
-import "./index.css";
 const Header = lazy(() => import("./components/Header"));
 const Hero = lazy(() => import("./components/Hero"));
 const Project = lazy(() => import("./components/Project"));
@@ -20,13 +19,13 @@ function App() {
     >
       <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
-        <div>
+        <main>
           <Hero />
-          <Particles className="particles-back" />
           <Project />
           <Skill />
           <Contact />
-        </div>
+        </main>
+        <Particles />
       </div>
     </Suspense>
   );

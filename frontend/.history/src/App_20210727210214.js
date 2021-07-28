@@ -1,11 +1,10 @@
 import { lazy, Suspense } from "react";
-import "./index.css";
 const Header = lazy(() => import("./components/Header"));
 const Hero = lazy(() => import("./components/Hero"));
 const Project = lazy(() => import("./components/Project"));
 const Skill = lazy(() => import("./components/Skill"));
 const Contact = lazy(() => import("./components/Contact"));
-const Particles = lazy(() => import("./components/particles"));
+const Particles = lazy(() => import("./components/particlebackground"));
 function App() {
   return (
     <Suspense
@@ -20,13 +19,13 @@ function App() {
     >
       <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
-        <div>
+        <main>
+          <Particles />
           <Hero />
-          <Particles className="particles-back" />
           <Project />
           <Skill />
           <Contact />
-        </div>
+        </main>
       </div>
     </Suspense>
   );

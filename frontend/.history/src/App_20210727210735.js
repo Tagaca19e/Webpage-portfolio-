@@ -1,5 +1,4 @@
 import { lazy, Suspense } from "react";
-import "./index.css";
 const Header = lazy(() => import("./components/Header"));
 const Hero = lazy(() => import("./components/Hero"));
 const Project = lazy(() => import("./components/Project"));
@@ -22,7 +21,7 @@ function App() {
         <Header />
         <div>
           <Hero />
-          <Particles className="particles-back" />
+          <Particles />
           <Project />
           <Skill />
           <Contact />
