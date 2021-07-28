@@ -17,6 +17,7 @@ body {
   text-rendering: optimizelegibility;
 }
 .particles-back {
+  display: flex;
 }
 
 html {

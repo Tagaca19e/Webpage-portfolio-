@@ -18,15 +18,15 @@ function App() {
         </div>
       }
     >
-      <div>
+      <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
         <Particles className="particles-back" />
         <div className="homePage">
           <Hero />
+          <Project />
+          <Skill />
+          <Contact />
         </div>
-        <Project />
-        <Skill />
-        <Contact />
       </div>
     </Suspense>
   );
