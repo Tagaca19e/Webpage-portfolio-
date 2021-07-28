@@ -22,9 +22,9 @@ function App() {
         <Header />
 
         <Particles className="particles-settings" />
-        <div className="homePage">
-          <Hero />
-        </div>
+
+        <Hero className="homePage" />
+
         <main>
           <Project />
           <Skill />

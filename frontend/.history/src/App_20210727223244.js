@@ -20,10 +20,11 @@ function App() {
     >
       <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
-
-        <Particles className="particles-settings" />
-        <div className="homePage">
-          <Hero />
+        <div>
+          <Particles />
+          <div className="homePage">
+            <Hero />
+          </div>
         </div>
         <main>
           <Project />
