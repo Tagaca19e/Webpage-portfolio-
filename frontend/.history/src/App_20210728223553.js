@@ -1,4 +1,4 @@
-import { lazy, Suspense } from "react";
+import react from "react";
 import "./index.css";
 const Header = lazy(() => import("./components/Header"));
 const Hero = lazy(() => import("./components/Hero"));
@@ -6,8 +6,6 @@ const Project = lazy(() => import("./components/Project"));
 const Skill = lazy(() => import("./components/Skill"));
 const Contact = lazy(() => import("./components/Contact"));
 const Particles = lazy(() => import("./components/particles"));
-const Timeline = lazy(() => import("./components/Timeline"));
-
 function App() {
   return (
     <Suspense
@@ -29,7 +27,6 @@ function App() {
         </div>
         <main>
           <Project />
-          <Timeline />
           <Skill />
           <Contact />
         </main>

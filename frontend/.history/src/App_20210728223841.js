@@ -28,8 +28,8 @@ function App() {
           <Hero />
         </div>
         <main>
-          <Project />
           <Timeline />
+          <Project />
           <Skill />
           <Contact />
         </main>
