@@ -4,6 +4,10 @@ import animate from "lottie-web";
 import particles from "./particles";
 
 const Hero = () => {
+  const container = useRef(null);
+
+    animate.setSpeed(0.5);
+  }, []);
   return (
     <section className="my-16 px-5 md:my-32 flex flex-col flex-wrap space-y-16 ">
       <div className="max-w-md mb-auto space-y-5">
