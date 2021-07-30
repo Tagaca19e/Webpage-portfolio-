@@ -23,10 +23,12 @@ function About() {
                       <Typist
                         cursor={{
                           show: true,
+                          blink: true,
+                          element: "|",
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
-                        avgTypingDelay={10}
+                        avgTypingSpeed={2000}
                       >
                         <span style={{ color: "#ffff19" }}>
                           {" "}
@@ -44,25 +46,8 @@ function About() {
                           {" "}
                           Compiling ...
                         </span>{" "}
-                        <p className="intro" avgTypingDelay={40}>
-                          {" "}
-                          Hello there! I am currently a sophomore at CSUB,
-                          although a second year student, I believe that I have
-                          developed extensive skills in front-end development
-                          and backend development. I am very proficient in using
-                          JavaScript, ReactJS, ExpressJS, HTML, and CSS. I
-                          always try to find time to get better every day in
-                          developing on my free time.{" "}
-                        </p>
-                        <span style={{ color: "#ffff19" }}>
-                          {" "}
-                          Eidmone@Desktop/AboutMe
-                          <span style={{ color: "#0cb7eb" }}> (master)</span>
-                          <span style={{ color: "#ffffff" }}> $</span>{" "}
-                        </span>
                       </Typist>
                     </h>
-                    <j></j>
                   </div>
                 </div>
               </div>

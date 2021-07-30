@@ -26,7 +26,8 @@ function About() {
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
-                        avgTypingDelay={10}
+                        avgTypingSpeed={2000}
+                        avgTypingDelay={20}
                       >
                         <span style={{ color: "#ffff19" }}>
                           {" "}
@@ -44,22 +45,12 @@ function About() {
                           {" "}
                           Compiling ...
                         </span>{" "}
-                        <p className="intro" avgTypingDelay={40}>
+                        <p>
                           {" "}
-                          Hello there! I am currently a sophomore at CSUB,
-                          although a second year student, I believe that I have
-                          developed extensive skills in front-end development
-                          and backend development. I am very proficient in using
-                          JavaScript, ReactJS, ExpressJS, HTML, and CSS. I
-                          always try to find time to get better every day in
-                          developing on my free time.{" "}
+                          pseudsdfasjdfjasdjflk sajlfksal djfklasjd kfjlakd
+                          jflsakl klasjfdlkjslk klsdjflkj saklflkasdjflksajf
+                          aslkf{" "}
                         </p>
-                        <span style={{ color: "#ffff19" }}>
-                          {" "}
-                          Eidmone@Desktop/AboutMe
-                          <span style={{ color: "#0cb7eb" }}> (master)</span>
-                          <span style={{ color: "#ffffff" }}> $</span>{" "}
-                        </span>
                       </Typist>
                     </h>
                     <j></j>

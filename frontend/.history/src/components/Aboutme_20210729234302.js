@@ -26,7 +26,8 @@ function About() {
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
-                        avgTypingDelay={10}
+                        avgTypingSpeed={2000}
+                        avgTypingDelay={20}
                       >
                         <span style={{ color: "#ffff19" }}>
                           {" "}
@@ -44,7 +45,7 @@ function About() {
                           {" "}
                           Compiling ...
                         </span>{" "}
-                        <p className="intro" avgTypingDelay={40}>
+                        <p className="intro">
                           {" "}
                           Hello there! I am currently a sophomore at CSUB,
                           although a second year student, I believe that I have
@@ -54,12 +55,6 @@ function About() {
                           always try to find time to get better every day in
                           developing on my free time.{" "}
                         </p>
-                        <span style={{ color: "#ffff19" }}>
-                          {" "}
-                          Eidmone@Desktop/AboutMe
-                          <span style={{ color: "#0cb7eb" }}> (master)</span>
-                          <span style={{ color: "#ffffff" }}> $</span>{" "}
-                        </span>
                       </Typist>
                     </h>
                     <j></j>

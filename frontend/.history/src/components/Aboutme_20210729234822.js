@@ -26,7 +26,8 @@ function About() {
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
-                        avgTypingDelay={10}
+                        avgTypingSpeed={2200}
+                        avgTypingDelay={20}
                       >
                         <span style={{ color: "#ffff19" }}>
                           {" "}
@@ -44,7 +45,7 @@ function About() {
                           {" "}
                           Compiling ...
                         </span>{" "}
-                        <p className="intro" avgTypingDelay={40}>
+                        <p className="intro">
                           {" "}
                           Hello there! I am currently a sophomore at CSUB,
                           although a second year student, I believe that I have

@@ -26,7 +26,7 @@ function About() {
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
-                        avgTypingDelay={10}
+                        avgTypingDelay={30}
                       >
                         <span style={{ color: "#ffff19" }}>
                           {" "}
