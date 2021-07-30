@@ -35,11 +35,6 @@ function About() {
                           <span style={{ color: "#0cb7eb" }}> (master)</span>
                           <span style={{ color: "#ffffff" }}> $</span>{" "}
                         </span>
-                        <Typist.Delay ms={500} />
-                        <span style={{ color: "#ffffff" }}>
-                          {" "}
-                          npm start{" "}
-                        </span>{" "}
                         <br />
                         <Typist.Delay ms={1000} />
                         <span style={{ color: "#ffff19" }}>

@@ -29,24 +29,16 @@ function About() {
                           hideWhenDoneDelay: 1000,
                         }}
                       >
-                        <span style={{ color: "#ffff19" }}>
+                        <span avgTypingDelay={20}>
                           {" "}
-                          Eidmone@Desktop/AboutMe
-                          <span style={{ color: "#0cb7eb" }}> (master)</span>
-                          <span style={{ color: "#ffffff" }}> $</span>{" "}
+                          saoidfjsdikafsadfoijasidof
+                          <span style={{ color: "#7f5af0" }}>~</span>${" "}
                         </span>
-                        <Typist.Delay ms={500} />
-                        <span style={{ color: "#ffffff" }}>
-                          {" "}
-                          npm start{" "}
-                        </span>{" "}
                         <br />
-                        <Typist.Delay ms={1000} />
-                        <span style={{ color: "#ffff19" }}>
+                        <span>
                           {" "}
-                          Eidmone@Desktop/AboutMe
-                          <span style={{ color: "#0cb7eb" }}> (master)</span>
-                          <span style={{ color: "#ffffff" }}> $</span>{" "}
+                          saoidfjsdikafsadfoijasidof
+                          <span style={{ color: "#7f5af0" }}>~</span>${" "}
                         </span>
                       </Typist>
                     </h>

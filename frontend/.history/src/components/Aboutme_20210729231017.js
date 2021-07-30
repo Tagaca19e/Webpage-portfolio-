@@ -28,25 +28,36 @@ function About() {
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
+                        avgTypingSpeed={200}
+                        avgTypingDelay={20}
                       >
-                        <span style={{ color: "#ffff19" }}>
+                        {/* <p className="line">
                           {" "}
-                          Eidmone@Desktop/AboutMe
-                          <span style={{ color: "#0cb7eb" }}> (master)</span>
-                          <span style={{ color: "#ffffff" }}> $</span>{" "}
-                        </span>
-                        <Typist.Delay ms={500} />
-                        <span style={{ color: "#ffffff" }}>
-                          {" "}
-                          npm start{" "}
-                        </span>{" "}
-                        <br />
+                          ayin_qoph@ayin_qoph:~$ sudo run about.exe
+                          <span style={{ color: "#7f5af0" }}>~</span>$
+                          ayin_qoph@ayin_qoph:~$ executing about.exe
+                        </p>
                         <Typist.Delay ms={1000} />
-                        <span style={{ color: "#ffff19" }}>
+                        <p className="line">
                           {" "}
-                          Eidmone@Desktop/AboutMe
-                          <span style={{ color: "#0cb7eb" }}> (master)</span>
-                          <span style={{ color: "#ffffff" }}> $</span>{" "}
+                          asdfjklsajkldfsdjkf
+                          <span style={{ color: "#7f5af0" }}>~</span>$
+                          sadofjiosdajifsdafoisdfjioasjf
+                        </p>
+                        <br />
+                                              <p className="line">dfgdfgfg</p>
+                                               */}
+
+                        <span>
+                          {" "}
+                          saoidfjsdikafsadfoijasidof
+                          <span style={{ color: "#7f5af0" }}>~</span>${" "}
+                        </span>
+                        <br />
+                        <span>
+                          {" "}
+                          saoidfjsdikafsadfoijasidof
+                          <span style={{ color: "#7f5af0" }}>~</span>${" "}
                         </span>
                       </Typist>
                     </h>
