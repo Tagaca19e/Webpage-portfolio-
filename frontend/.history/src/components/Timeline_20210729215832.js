@@ -9,12 +9,14 @@ const Timeline = () => {
   return (
     <VerticalTimeline className="timeline">
       <VerticalTimelineElement
-        className="vertical-timeline-element--work"
-        date="2010 - 2011"
+        className=""
+        contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+        contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
+        date="2011 - present"
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h2 className="vertical-timeline-element-title">Art Director</h2>
+        <h2 className="header">Creative Director</h2>
         <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
         <p>
           Creative Direction, User Experience, Visual Design, Project
@@ -27,7 +29,7 @@ const Timeline = () => {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h2 className="vertical-timeline-element-title">Art Director</h2>
+        <h3 className="vertical-timeline-element-title">Art Director</h3>
         <h4 className="vertical-timeline-element-subtitle">
           San Francisco, CA
         </h4>
@@ -42,7 +44,7 @@ const Timeline = () => {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h2 className="vertical-timeline-element-title">Web Designer</h2>
+        <h3 className="vertical-timeline-element-title">Web Designer</h3>
         <h4 className="vertical-timeline-element-subtitle">Los Angeles, CA</h4>
         <p>User Experience, Visual Design</p>
       </VerticalTimelineElement>
@@ -52,7 +54,7 @@ const Timeline = () => {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h2 className="vertical-timeline-element-title">Web Designer</h2>
+        <h3 className="vertical-timeline-element-title">Web Designer</h3>
         <h4 className="vertical-timeline-element-subtitle">
           San Francisco, CA
         </h4>
@@ -64,9 +66,9 @@ const Timeline = () => {
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<SchoolIcon />}
       >
-        <h2 className="vertical-timeline-element-title">
+        <h3 className="vertical-timeline-element-title">
           Content Marketing for Web, Mobile and Social Media
-        </h2>
+        </h3>
         <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
         <p>Strategy, Social Media</p>
       </VerticalTimelineElement>
@@ -76,9 +78,9 @@ const Timeline = () => {
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<SchoolIcon />}
       >
-        <h2 className="vertical-timeline-element-title">
+        <h3 className="vertical-timeline-element-title">
           Agile Development Scrum Master
-        </h2>
+        </h3>
         <h4 className="vertical-timeline-element-subtitle">Certification</h4>
         <p>Creative Direction, User Experience, Visual Design</p>
       </VerticalTimelineElement>
@@ -88,12 +90,16 @@ const Timeline = () => {
         iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
         // icon={<SchoolIcon />}
       >
-        <h2 className="vertical-timeline-element-title">
+        <h3 className="vertical-timeline-element-title">
           Bachelor of Science in Interactive Digital Media Visual Imaging
-        </h2>
+        </h3>
         <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
         <p>Creative Direction, Visual Design</p>
       </VerticalTimelineElement>
+      <VerticalTimelineElement
+        iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+        // icon={<StarIcon />}
+      />
     </VerticalTimeline>
   );
 };

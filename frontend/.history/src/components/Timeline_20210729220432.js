@@ -94,6 +94,10 @@ const Timeline = () => {
         <h4 className="vertical-timeline-element-subtitle">Bachelor Degree</h4>
         <p>Creative Direction, Visual Design</p>
       </VerticalTimelineElement>
+      <VerticalTimelineElement
+        iconStyle={{ background: "rgb(16, 204, 82)", color: "#fff" }}
+        // icon={<StarIcon />}
+      />
     </VerticalTimeline>
   );
 };

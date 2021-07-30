@@ -150,7 +150,7 @@
 .vertical-timeline-element-content {
   position: relative;
   margin-left: 60px;
-  background: #ffb900;
+  background: RGB(222, 234, 110);
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #ddd;
