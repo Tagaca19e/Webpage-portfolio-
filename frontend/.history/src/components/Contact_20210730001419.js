@@ -138,6 +138,8 @@ const Contact = () => {
           <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
         </picture> */}
       </div>
+      <div class="block">
+  </block>
     </section>
   );
 };

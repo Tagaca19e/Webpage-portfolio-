@@ -472,7 +472,7 @@
   }
 }
 .react-reveal > .device > .frame {
-  animation: floatY 6000ms ease-in-out infinite both;
+  animation: floatY 6000ms ease-out infinite both;
 }
 @keyframes floatY {
   0%,

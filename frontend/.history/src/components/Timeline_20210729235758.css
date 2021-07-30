@@ -472,15 +472,5 @@
   }
 }
 .react-reveal > .device > .frame {
-  animation: floatY 6000ms ease-in-out infinite both;
-}
-@keyframes floatY {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(-20px);
-  }
+  animation: floatY 6000ms ease-out infinite both;
 }

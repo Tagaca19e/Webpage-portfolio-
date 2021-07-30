@@ -137,6 +137,7 @@ const Contact = () => {
           <source srcSet='./images/rocket.png' sizes='(min-width: 768px) 50vw, 100vw' type='image/png' />
           <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
         </picture> */}
+        <div class="block"></div>
       </div>
     </section>
   );
