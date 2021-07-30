@@ -27,8 +27,8 @@ function App() {
         <Particles className="particles-settings" />
         <div className="homePage">
           <Hero />
+          <About />
         </div>
-        <About />
         <Project />
         <Timeline />
         <main>

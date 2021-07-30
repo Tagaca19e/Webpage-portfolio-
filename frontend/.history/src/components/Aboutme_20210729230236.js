@@ -23,18 +23,17 @@ function About() {
                       <Typist
                         cursor={{
                           show: true,
-                          blink: true,
-                          element: "|",
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
+                        avgTypingSpeed={200}
+                        avgTypingDelay={20}
                       >
-                        {/* <p className="line">
+                        <p className="line">
                           {" "}
                           ayin_qoph@ayin_qoph:~$ sudo run about.exe
-                          <span style={{ color: "#7f5af0" }}>~</span>$
-                          ayin_qoph@ayin_qoph:~$ executing about.exe
                         </p>
+
                         <Typist.Delay ms={1000} />
                         <p className="line">
                           {" "}
@@ -43,9 +42,7 @@ function About() {
                           sadofjiosdajifsdafoisdfjioasjf
                         </p>
                         <br />
-                                              <p className="line">dfgdfgfg</p>
-                                               */}
-
+                        <p className="line">dfgdfgfg</p>
                         <span>
                           {" "}
                           saoidfjsdikafsadfoijasidof

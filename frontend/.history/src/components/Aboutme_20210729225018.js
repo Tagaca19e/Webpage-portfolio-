@@ -19,21 +19,21 @@ function About() {
               <div className="frame">
                 <div className="screen">
                   <div className="window-content">
-                    <h>
+                    <h2>
                       <Typist
                         cursor={{
                           show: true,
-                          blink: true,
-                          element: "|",
                           hideWhenDone: false,
                           hideWhenDoneDelay: 1000,
                         }}
+                        avgTypingSpeed={200}
+                        avgTypingDelay={20}
                       >
-                        {/* <p className="line">
+                        <p className="line">
                           {" "}
-                          ayin_qoph@ayin_qoph:~$ sudo run about.exe
+                          Hello My name ins sajdfkjaslkdfjlksdfjsjdfkjlasdf
                           <span style={{ color: "#7f5af0" }}>~</span>$
-                          ayin_qoph@ayin_qoph:~$ executing about.exe
+                          sjdfjsdajfjdsakfjklsdajklfjlksajdf
                         </p>
                         <Typist.Delay ms={1000} />
                         <p className="line">
@@ -43,16 +43,14 @@ function About() {
                           sadofjiosdajifsdafoisdfjioasjf
                         </p>
                         <br />
-                                              <p className="line">dfgdfgfg</p>
-                                               */}
-
+                        <p className="line">dfgdfgfg</p>
                         <span>
                           {" "}
                           saoidfjsdikafsadfoijasidof
                           <span style={{ color: "#7f5af0" }}>~</span>${" "}
                         </span>
                       </Typist>
-                    </h>
+                    </h2>
                   </div>
                 </div>
               </div>

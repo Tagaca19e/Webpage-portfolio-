@@ -29,23 +29,6 @@ function About() {
                           hideWhenDoneDelay: 1000,
                         }}
                       >
-                        {/* <p className="line">
-                          {" "}
-                          ayin_qoph@ayin_qoph:~$ sudo run about.exe
-                          <span style={{ color: "#7f5af0" }}>~</span>$
-                          ayin_qoph@ayin_qoph:~$ executing about.exe
-                        </p>
-                        <Typist.Delay ms={1000} />
-                        <p className="line">
-                          {" "}
-                          asdfjklsajkldfsdjkf
-                          <span style={{ color: "#7f5af0" }}>~</span>$
-                          sadofjiosdajifsdafoisdfjioasjf
-                        </p>
-                        <br />
-                                              <p className="line">dfgdfgfg</p>
-                                               */}
-
                         <span>
                           {" "}
                           saoidfjsdikafsadfoijasidof
