@@ -150,7 +150,7 @@
 .vertical-timeline-element-content {
   position: relative;
   margin-left: 60px;
-  background: rgb(255, 0, 0);
+  background: white;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #ddd;
@@ -226,7 +226,7 @@
 .vertical-timeline--one-column-right
   .vertical-timeline-element-content::before {
   left: 100%;
-  border-left: 7px solid white;
+  border-left: 7px solid rgb(255, 0, 0);
   border-right: unset;
 }
 

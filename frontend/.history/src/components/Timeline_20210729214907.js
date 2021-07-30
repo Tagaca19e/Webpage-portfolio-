@@ -2,7 +2,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-
+import "react-vertical-timeline-component/style.min.css";
 import "./Timeline.css";
 
 const Timeline = () => {
@@ -16,7 +16,7 @@ const Timeline = () => {
         iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
         // icon={<WorkIcon />}
       >
-        <h2 className="header">Creative Director</h2>
+        <h3 className="header">Creative Director</h3>
         <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
         <p>
           Creative Direction, User Experience, Visual Design, Project
