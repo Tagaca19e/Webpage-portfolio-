@@ -15,36 +15,34 @@ const Project = () => {
               className="flex flex-wrap md:justify-between md:items-center"
               key={index}
             >
-              <Zoom>
-                <picture
-                  className={
-                    index % 2 === 0
-                      ? "w-full md:w-6/12 shadow-lg "
-                      : "w-full md:w-6/12 shadow-lg md:order-1"
-                  }
-                >
-                  <source
-                    srcSet={`${project.image}-1280.webp 1920w,
-                  ${project.image}-768.webp 768w,
-                  ${project.image}-320.webp 320w`}
-                    sizes="(min-width: 768px) 50vw, 100vw"
-                    type="image/webp"
-                  />
-                  <source
-                    srcSet={`${project.image}-768.jpg 768w,`}
-                    sizes="(min-width: 768px) 50vw, 100vw"
-                    type="image/jpg"
-                  />
+              <picture
+                className={
+                  index % 2 === 0
+                    ? "w-full md:w-6/12 shadow-lg "
+                    : "w-full md:w-6/12 shadow-lg md:order-1"
+                }
+              >
+                <source
+                  srcSet={`${project.image}-1280.webp 1920w,
+                        ${project.image}-768.webp 768w,
+                        ${project.image}-320.webp 320w`}
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  type="image/webp"
+                />
+                <source
+                  srcSet={`${project.image}-768.jpg 768w,`}
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  type="image/jpg"
+                />
 
-                  <img
-                    width="768px"
-                    height="575px"
-                    loading="lazy"
-                    alt={project.title}
-                    className="rounded-lg"
-                  />
-                </picture>
-              </Zoom>
+                <img
+                  width="768px"
+                  height="575px"
+                  loading="lazy"
+                  alt={project.title}
+                  className="rounded-lg"
+                />
+              </picture>
               <div className="flex flex-col overflow-auto  space-y-3 my-3 mx-1 w-full md:w-5/12 ">
                 <Zoom>
                   <h3 className="uppercase font-bold text-lg">
