@@ -25,9 +25,9 @@ function App() {
       <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
         <AnimatedCursor
-          innerSize={15}
-          outerSize={20}
-          color="57,227,156"
+          innerSize={8}
+          outerSize={8}
+          color="193, 11, 111"
           outerAlpha={0.2}
           innerScale={0.7}
           outerScale={5}

@@ -1,6 +1,7 @@
 import { lazy, Suspense } from "react";
 import "./index.css";
-import AnimatedCursor from "react-animated-cursor";
+import CustomCursor from "custom-cursor-react";
+
 const Header = lazy(() => import("./components/Header"));
 const Hero = lazy(() => import("./components/Hero"));
 const Project = lazy(() => import("./components/Project"));
@@ -24,13 +25,17 @@ function App() {
     >
       <div className="App container my-10 mx-auto max-w-screen-lg bg-black">
         <Header />
-        <AnimatedCursor
-          innerSize={15}
-          outerSize={20}
-          color="57,227,156"
-          outerAlpha={0.2}
-          innerScale={0.7}
-          outerScale={5}
+        <CustomCursor
+          targets={[".link", ".your-css-selector"]}
+          customClass="custom-cursor"
+          dimensions={30}
+          fill="#FFF"
+          smoothness={{
+            movement: 0.2,
+            scale: 0.1,
+            opacity: 0.2,
+          }}
+          targetOpacity={0.5}
         />
 
         <Particles className="particles-settings" />
