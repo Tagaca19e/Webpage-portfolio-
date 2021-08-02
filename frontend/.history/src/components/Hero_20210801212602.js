@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from "react";
-import "./Hero.css";
+
 const Hero = () => {
   return (
     <section className="my-16 px-5 md:my-32 flex flex-col flex-wrap space-y-16 ">
