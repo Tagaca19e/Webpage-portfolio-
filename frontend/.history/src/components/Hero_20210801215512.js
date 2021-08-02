@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="max-w-md mb-auto space-y-5">
         <h1 className="text-5xl font-bold md:text-7xl">Hello </h1>
 
-        <h1 className="Im-Eidmone">
+        <h1 className="text-5xl font-bold md:text-7xl">
           I'm{" "}
           <TextLoop>
             <h1>Eidmone</h1>
