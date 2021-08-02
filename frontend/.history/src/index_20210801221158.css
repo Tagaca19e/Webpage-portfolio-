@@ -27,6 +27,7 @@ body {
 }
 .hero {
   bottom: 0;
+  position: absolute;
 }
 html {
   scroll-behavior: smooth;
@@ -36,7 +37,7 @@ html {
   /* left: 0;
   padding-left: 10%; */
   /* padding-top: 13rem; */
-  top: 20rem;
+  top: 4rem;
 
   /* position: absolute;
   z-index: 2; */

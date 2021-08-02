@@ -12,9 +12,9 @@ const Hero = () => {
           I'm{" "}
           <TextLoop>
             <h1>Eidmone</h1>
-
+            <h1>Tagaca</h1>
             <h1>a student</h1>
-
+            <h1>a developer</h1>
             <h1>a leader</h1>
           </TextLoop>{" "}
         </h1>

@@ -9,14 +9,13 @@ const Hero = () => {
         <h1 className="text-5xl font-bold md:text-7xl">Hello </h1>
 
         <h1 className="Im-Eidmone">
-          I'm{" "}
-          <TextLoop>
-            <h1>Eidmone</h1>
-
-            <h1>a student</h1>
-
-            <h1>a leader</h1>
-          </TextLoop>{" "}
+          I'm {/* <TextLoop> */}
+          {/* <h1>Eidmone</h1>
+            <h1>Tagaca</h1>
+            <h1>a student</h1> */}
+          <h1>a developer</h1>
+          {/* <h1>a leader</h1> */}
+          {/* </TextLoop>{" "} */}
         </h1>
 
         <div className="short-description">

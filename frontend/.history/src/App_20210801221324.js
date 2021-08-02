@@ -32,11 +32,12 @@ function App() {
           innerScale={0.7}
           outerScale={5}
         />
-        <Particles className="particles-settings" />
         <div className="homePage">
-          <Hero />
+          <Particles className="particles-settings" />
         </div>
-
+        <span>
+          <Hero />
+        </span>
         <Skill />
         <About />
         <Project />
