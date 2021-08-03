@@ -20,46 +20,62 @@ const Contact = () => {
               etagaca@csub.edu
             </a>
           </div>
-          <div className="linkedin">
-            <div className="flex flex-row flex-wrap mt2a-7">
-              <div className="mr-4">
-                <a
-                  href="https://www.linkedin.com/in/theelipan"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span className="mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm">
-                    <img
-                      src="./images/icons/linkedin.svg"
-                      alt=""
-                      width="24px"
-                      height="24px"
-                      className="mr-1"
-                    />
-                    LinkedIn
-                  </span>
-                </a>
-              </div>
 
-              <div className="mr-4">
-                <a
-                  href="https://github.com/Deelip7"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <span className="mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm">
-                    <img
-                      src="./images/icons/github.svg"
-                      alt=""
-                      width="24px"
-                      height="24px"
-                      className="mr-1"
-                    />
-                    GitHub
-                  </span>
-                </a>
-              </div>
+          <div className="flex flex-row flex-wrap mt2-7">
+            <div className="mr-4">
+              <a
+                href="https://www.linkedin.com/in/theelipan"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm">
+                  <img
+                    src="./images/icons/linkedin.svg"
+                    alt=""
+                    width="24px"
+                    height="24px"
+                    className="mr-1"
+                  />
+                  LinkedIn
+                </span>
+              </a>
             </div>
+
+            <div className="mr-4">
+              <a
+                href="https://github.com/Deelip7"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span className="mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm">
+                  <img
+                    src="./images/icons/github.svg"
+                    alt=""
+                    width="24px"
+                    height="24px"
+                    className="mr-1"
+                  />
+                  GitHub
+                </span>
+              </a>
+            </div>
+
+            <a
+              href="https://codepen.io/Theelipan"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span className="mb-2 flex flex-row items-end border border-gray-500 p-2 rounded-lg text-sm">
+                <img
+                  src="./images/icons/codepen.svg"
+                  alt=""
+                  width="24px"
+                  height="24px"
+                  className="mr-1"
+                />
+                CodePen
+              </span>
+            </a>
           </div>
         </div>
 

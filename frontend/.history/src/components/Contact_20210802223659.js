@@ -20,7 +20,7 @@ const Contact = () => {
               etagaca@csub.edu
             </a>
           </div>
-          <div className="linkedin">
+          <div>
             <div className="flex flex-row flex-wrap mt2a-7">
               <div className="mr-4">
                 <a
