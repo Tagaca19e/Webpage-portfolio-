@@ -21,7 +21,7 @@ const Contact = () => {
             </a>
           </div>
 
-          <div className="flex flex-row flex-wrap mt2-7">
+          <div className="flex flex-row flex-wrap mt-7">
             <div className="mr-4">
               <a
                 href="https://www.linkedin.com/in/theelipan"
