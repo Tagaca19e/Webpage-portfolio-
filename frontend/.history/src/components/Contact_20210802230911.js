@@ -6,9 +6,7 @@ const Contact = () => {
     <section>
       <header className="px-5 text-2xl font-bold pt-10">
         <h3>Contact Me</h3>
-        <p className="text-base font-thin">
-          Feel fee to contact me or ask me any questions!
-        </p>
+        <p className="text-base font-thin">I'd love to hear your thoughts!</p>
       </header>
 
       <div className="md:mx-6 flex flex-col flex-wrap md:flex-row justify-between">
@@ -66,7 +64,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="bg-gray px-5 py-10 md:py-8 sm:p-8 my-2 md:rounded-lg   justify-between w-full  md:w-6/12 ">
+        <div className="block px-5 py-10 md:py-8 sm:p-8 my-2 md:rounded-lg   justify-between w-full  md:w-6/12 ">
           <form
             className="flex flex-col space-y-3 m-auto w-full"
             name="contact"
@@ -118,6 +116,7 @@ const Contact = () => {
           <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
         </picture> */}
       </div>
+      {/* <div className="block"></div> */}
     </section>
   );
 };

@@ -7,7 +7,7 @@ const Contact = () => {
       <header className="px-5 text-2xl font-bold pt-10">
         <h3>Contact Me</h3>
         <p className="text-base font-thin">
-          Feel fee to contact me or ask me any questions!
+          Feel fee to contact me or ask me any questions
         </p>
       </header>
 

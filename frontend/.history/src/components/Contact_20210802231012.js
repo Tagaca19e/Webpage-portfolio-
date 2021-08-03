@@ -6,12 +6,10 @@ const Contact = () => {
     <section>
       <header className="px-5 text-2xl font-bold pt-10">
         <h3>Contact Me</h3>
-        <p className="text-base font-thin">
-          Feel fee to contact me or ask me any questions!
-        </p>
+        <p className="text-base font-thin">I'd love to hear your thoughts!</p>
       </header>
 
-      <div className="md:mx-6 flex flex-col flex-wrap md:flex-row justify-between">
+      <div className="md:mx-6 flex block flex-col flex-wrap md:flex-row justify-between">
         <div className="md:w-6/12 md:px-0 p-5 my-5">
           <div>
             <p className="font-bold">Eidmone Tagaca</p>
@@ -118,6 +116,7 @@ const Contact = () => {
           <img width='500px' height='500px' loading='lazy' alt='red rocket flying' />
         </picture> */}
       </div>
+      {/* <div className="block"></div> */}
     </section>
   );
 };
