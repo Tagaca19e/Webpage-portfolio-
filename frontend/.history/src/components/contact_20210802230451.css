@@ -3,9 +3,9 @@
 }
 .block {
   position: relative;
+  margin-top: 2rem;
 
   background: linear-gradient(0deg, #000, #272727);
-  border-radius: 10px;
 }
 
 .block:before,

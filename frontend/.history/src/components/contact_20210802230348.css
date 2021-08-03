@@ -2,10 +2,7 @@
   margin-top: 10px;
 }
 .block {
-  position: relative;
-
   background: linear-gradient(0deg, #000, #272727);
-  border-radius: 10px;
 }
 
 .block:before,
