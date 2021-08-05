@@ -39,7 +39,7 @@ function App() {
         <Skill />
         <About />
         <Project />
-        {/* <Timeline /> */}
+
         <main>
           <Contact />
         </main>
