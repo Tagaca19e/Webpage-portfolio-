@@ -36,6 +36,7 @@ function App() {
         <div className="homePage">
           <Hero />
         </div>
+
         <Skill />
         <About />
         <Project />
