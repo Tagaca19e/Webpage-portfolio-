@@ -16,6 +16,7 @@ const Hero = () => {
             <Typist.Backspace count={7} delay={2000} />
             <span> a student </span>
             <Typist.Backspace count={9} delay={2000} />
+
             <span> Phrase </span>
             <span> Phrase </span>
           </Typist>
