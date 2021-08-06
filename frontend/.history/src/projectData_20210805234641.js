@@ -10,7 +10,8 @@ const projects = [
   {
     title: "Typing Test",
     image: "./images/tmdb-mockup",
-    description: "sdjfiojdsifjdksjfjsdajklj klsadjf",
+    description:
+      "Discover the most popular, top rated and latest movies. Users can also find a movie based on the movie title.",
     tools: ["React", "API", "SASS"],
     github: "https://github.com/Deelip7/react-tmdb-app",
     link: "https://festive-wilson-a51c32.netlify.app/",
