@@ -8,7 +8,9 @@ const Hero = () => {
   return (
     <section className=" ">
       <div className="max-w-md mb-auto space-y-5">
-        <h1 className="text-5xl font-bold md:text-7xl">Hello</h1>
+        <h1 className="text-5xl font-bold md:text-7xl">
+          <ReactTypingEffect text={["Hello."]} />
+        </h1>
 
         <h1 className="Im-Eidmone">
           <Typist>
