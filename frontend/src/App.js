@@ -38,8 +38,7 @@ function App() {
         </div>
         <Skill />
         <About />
-        <Project />
-
+        <Project />1
         <main>
           <Contact />
         </main>

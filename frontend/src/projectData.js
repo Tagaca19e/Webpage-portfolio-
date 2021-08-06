@@ -19,11 +19,12 @@ const projects = [
     title: "Pixel Drawing",
     image: "./images/recipeApp-mockup",
     description:
-      "Browse recipes from a variety of sources. Users can save recipes to view them later. API from themealdb.com.",
+      "Browseasdfdsfas dfsdaf asdfsdfrecipes from a variety of sources. Users can save recipes to view them later. API from themealdb.com.",
     tools: ["Javascript", "API"],
     github: "https://github.com/Deelip7/RecipesFinder",
     link: "https://practical-archimedes-a61091.netlify.app/",
   },
 ];
+s;
 
 export default projects;
