@@ -25,5 +25,6 @@ const projects = [
     link: "https://practical-archimedes-a61091.netlify.app/",
   },
 ];
+s;
 
 export default projects;
