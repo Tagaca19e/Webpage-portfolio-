@@ -1,6 +1,6 @@
 # Portfolio
 
-<img src="https://raw.githubusercontent.com/Deelip7/react-portfolio/823322a0d329eb7433f0d45619cfe9875c4b450a/frontend/public/images/portfolio.webp" alt="illustration of a rocket"/>
+
 <p align="center"> My personal portfolio. Accessible and responsive SPA portfolio built with React.js. </p>
 
 ## Features
